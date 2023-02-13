@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14782,9 +14782,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MI
 <wire x1="230.98125" y1="18.6055" x2="230.98125" y2="23.1775" width="0.1524" layer="205"/>
 <text x="242.57" y="6.35" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="180.34" y="5.08" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
-<text x="35.56" y="154.94" size="1.778" layer="102" align="center">To use external USB to JTAG debugger
+<text x="35.56" y="154.94" size="1.778" layer="102" align="center">To use external JTAG debugger
  desolder R11 &amp; R12 &amp; R13</text>
-<text x="43.18" y="53.34" size="1.778" layer="102" rot="R180" align="center">To use external USB to FTDI
+<text x="43.18" y="53.34" size="1.778" layer="102" rot="R180" align="center">To use external FTDI
  desolder R8 &amp; R9</text>
 <wire x1="76.2" y1="86.36" x2="74.93" y2="86.36" width="0.1524" layer="102"/>
 <wire x1="74.93" y1="86.36" x2="74.93" y2="85.09" width="0.1524" layer="102"/>
