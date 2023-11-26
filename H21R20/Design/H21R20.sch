@@ -1533,7 +1533,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="1.5224" y="-1.5224"/>
 </polygon>
 </package>
-<package name="ESP32C3MINI1N4" urn="urn:adsk.eagle:footprint:28470190/1" library_version="69">
+<package name="ESP32C3MINI1N4" urn="urn:adsk.eagle:footprint:28470190/1" locally_modified="yes" library_version="119" library_locally_modified="yes">
 <description>&lt;b&gt;ESP32-C3-MINI-1-N4&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-5.9" y="4" dx="0.8" dy="0.4" layer="1"/>
@@ -1607,16 +1607,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="7.6" y1="12" x2="7.6" y2="-6.6" width="0.1" layer="51"/>
 <wire x1="7.6" y1="-6.6" x2="-7.6" y2="-6.6" width="0.1" layer="51"/>
 <wire x1="-7.6" y1="-6.6" x2="-7.6" y2="12" width="0.1" layer="51"/>
-<wire x1="-6.6" y1="5.7" x2="-6.6" y2="11" width="0.2" layer="21"/>
-<wire x1="-6.6" y1="11" x2="6.6" y2="11" width="0.2" layer="21"/>
-<wire x1="6.6" y1="11" x2="6.6" y2="5.7" width="0.2" layer="21"/>
-<wire x1="-7" y1="4" x2="-7" y2="4" width="0.2" layer="21"/>
 <wire x1="-7" y1="4" x2="-7.2" y2="4" width="0.2" layer="21" curve="180"/>
-<wire x1="-7.2" y1="4" x2="-7.2" y2="4" width="0.2" layer="21"/>
 <wire x1="-7.2" y1="4" x2="-7" y2="4" width="0.2" layer="21" curve="180"/>
-<wire x1="-6.6" y1="5.7" x2="-6.6" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="5.92" x2="-6.6" y2="-5.6" width="0.2" layer="21"/>
 <wire x1="-6.6" y1="-5.6" x2="6.6" y2="-5.6" width="0.2" layer="21"/>
-<wire x1="6.6" y1="-5.6" x2="6.6" y2="5.7" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-5.6" x2="6.6" y2="5.92" width="0.2" layer="21"/>
 </package>
 <package name="HEXABITZ_ICS_QFN_B1CEU6_STM-L" urn="urn:adsk.eagle:footprint:39679330/6" library_version="119">
 <wire x1="-3.683" y1="-3.683" x2="-3.185" y2="-3.683" width="0.1524" layer="21"/>
@@ -2586,7 +2581,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="HEXABITZ_ICS_UFQFPN48_STM32_STM"/>
 </packageinstances>
 </package3d>
-<package3d name="ESP32C3MINI1N4" urn="urn:adsk.eagle:package:28470191/2" type="model" library_version="69">
+<package3d name="ESP32C3MINI1N4" urn="urn:adsk.eagle:package:28470191/2" type="model" library_version="119" library_locally_modified="yes">
 <description>&lt;b&gt;ESP32-C3-MINI-1-N4&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="ESP32C3MINI1N4"/>
@@ -2993,7 +2988,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-C3-MINI-1-N4" urn="urn:adsk.eagle:component:28470192/2" prefix="IC" library_version="69">
+<deviceset name="ESP32-C3-MINI-1-N4" urn="urn:adsk.eagle:component:28470192/2" prefix="IC" library_version="119" library_locally_modified="yes">
 <description>&lt;b&gt;SMD MODULE, ESP32-C3FN4, PCB ANT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MINI_1_Datasheet-2006822.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
