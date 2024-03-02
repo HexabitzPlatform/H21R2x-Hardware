@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5861,9 +5861,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MI
 <text x="215.9" y="15.24" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="215.9" y="5.08" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.39" y="19.05" size="1.9304" layer="100" font="vector">Title</text>
-<text x="180.34" y="19.05" size="1.9304" layer="102" font="vector">H21R20</text>
+<text x="180.34" y="19.05" size="1.9304" layer="102" font="vector">H21R2</text>
 <text x="179.07" y="11.43" size="1.9304" layer="101" font="vector">ESP32-C3 Wifi+BLE</text>
-<text x="205.74" y="19.05" size="1.9304" layer="101" font="vector">H21R20_Backend</text>
+<text x="205.74" y="19.05" size="1.9304" layer="101" font="vector">H21R2_Backend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="18.288" x2="168.91" y2="22.86" width="0.1524" layer="205"/>
@@ -5884,7 +5884,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MI
 <wire x1="168.91" y1="8.128" x2="214.63" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.57" y="6.35" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="180.34" y="5.08" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
 <text x="204.47" y="83.82" size="1.778" layer="94">VDDIO2 Coupling</text>
 <text x="142.24" y="83.82" size="1.778" layer="94">VDD\\\VDDA Coupling</text>
 <text x="172.72" y="83.82" size="1.778" layer="94">Vref Coupling</text>
@@ -14788,9 +14787,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MI
 <text x="215.9" y="15.24" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="215.9" y="5.08" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.39" y="20.32" size="1.9304" layer="100" font="vector">Title</text>
-<text x="180.34" y="20.32" size="1.9304" layer="102" font="vector">H21R20</text>
+<text x="180.34" y="20.32" size="1.9304" layer="102" font="vector">H21R2</text>
 <text x="179.07" y="11.43" size="1.9304" layer="101" font="vector">ESP32-C3 Wifi+BLE</text>
-<text x="205.74" y="20.32" size="1.9304" layer="101" font="vector">H21R20_Frontend</text>
+<text x="205.74" y="20.32" size="1.9304" layer="101" font="vector">H21R2_Frontend</text>
 <wire x1="168.75125" y1="4.1275" x2="168.75125" y2="8.4455" width="0.1524" layer="205"/>
 <wire x1="168.75125" y1="8.4455" x2="168.75125" y2="18.6055" width="0.1524" layer="205"/>
 <wire x1="168.75125" y1="18.6055" x2="168.75125" y2="23.1775" width="0.1524" layer="205"/>
@@ -14811,7 +14810,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/891/Espressif_ESP32_C3_MI
 <wire x1="168.75125" y1="8.4455" x2="214.47125" y2="8.4455" width="0.1524" layer="205"/>
 <wire x1="230.98125" y1="18.6055" x2="230.98125" y2="23.1775" width="0.1524" layer="205"/>
 <text x="242.57" y="6.35" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="180.34" y="5.08" size="1.9304" layer="101" font="vector">Ibrahim Zaeiter</text>
 <text x="35.56" y="154.94" size="1.778" layer="102" align="center">To use external JTAG debugger
  desolder R11 &amp; R12 &amp; R13</text>
 <text x="43.18" y="53.34" size="1.778" layer="102" rot="R180" align="center">To use external FTDI
